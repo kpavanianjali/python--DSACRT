@@ -27,6 +27,7 @@ so that it can be used efficiently.
 Traversal	       Access each element one by one
 Insertion       	Add a new element
 Deletion	        Remove an element
+Updating           Change the value of an element
 Searching	        Find an element
 Sorting        	Arrange elements in order
 Merging	        Combine two data structures
