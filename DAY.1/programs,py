@@ -1,0 +1,67 @@
+# data type:
+A data type specifies the type of value stored in a variable.
+ int  # 3
+ float # 3.4
+ str # "anjali"
+ bool # True
+ 
+#Variable:
+A variable is a named memory location used to store data
+rules:
+✅ Start with letter or _
+❌ Do not start with numbers
+❌ No spaces
+❌ No special characters
+❌ No keywords
+
+#Operator:
+An operator is a symbol used to perform operations on variables and values.
+Arithmetic → + - * / % // **
+Relational → == != > < >= <=
+Logical → and or not    
+
+# data structure:
+A Data Structure is a way of storing and organizing data in a computer
+so that it can be used efficiently.
+#Operation         	Meaning
+Traversal	       Access each element one by one
+Insertion       	Add a new element
+Deletion	        Remove an element
+Searching	        Find an element
+Sorting        	Arrange elements in order
+Merging	        Combine two data structures
+
+stack:(LIFO)-last in first out
+A stack is a linear data structure that follows the LIFO (Last In, First Out) principle. This means
+the element added last is the first one to be removed.
+operations
+push-> (append) Adds an element to the top of the stack
+pop-> remove top element from stack
+Peek (or Top) -> Returns the top element without removing it.
+isEmpty -> Checks whether the stack is empty.
+
+queue:(FIFO)-first in first out
+operations
+enqueue - element Add from rare(end)
+dequeue - element delete from front side
+Front (Peek) -> Returns the front element without removing it
+isEmpty -> Checks whether the queue is empty.
+
+#defination:
+A linked list is a liner data structures where elements are stored in nodes,and each 
+node contains
+1.data-the value stored in the node
+2.pointer(link)-the address of the next node
+#linked list:
+*how to create nodes
+*how to insert data into nodes
+*how to access node data and node address
+*how to update node data and node node address
+*how to link one node to other
+*how to unlink nodes
+*how to search element in linked list
+
+
+
+
+
