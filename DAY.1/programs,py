@@ -1,3 +1,8 @@
+#ARRAY:
+#An array is a collection of elements of the same data type
+ stored in contiguous memory locations, and each element can be accessed using its index
+
+
 # data type:
 A data type specifies the type of value stored in a variable.
  int  # 3
@@ -62,7 +67,133 @@ node contains
 *how to unlink nodes
 *how to search element in linked list
 
+#Tree:
+#A Tree is a non-linear data structure made up of nodes connected by edges. It has one root node and no cycles.
+
+#Binary Tree:
+#A Binary Tree is a tree in which each node can have at most two children: left child and right child.
+
+#Binary Search Tree (BST)
+#A Binary Search Tree is a binary tree where:
+#Left subtree values are less than the root.
+#Right subtree values are greater than the root.
+
+#Complete Binary Tree:
+#A Complete Binary Tree is a binary tree where:
+#All levels are completely filled except possibly the last level.
+#Nodes in the last level are filled from left to right.
+
+#Min Heap
+#A Min Heap is a complete binary tree where the parent node is smaller than or equal to its children.
+
+#Max Heap
+#A Max Heap is a complete binary tree where the parent node is greater than or equal to its children.
+
+#HEAP:
+#A Heap is a complete binary tree in which the value node is either greater than,less than,or equal to the value
+in child node is called a Heap
+
+#difference between Array and lined list:
+| Array                                | Linked List                              |
+| ------------------------------------ | ---------------------------------------- |
+| Stores elements in contiguous memory | Stores elements in non-contiguous memory |
+| Fast access using index              | Sequential access                        |
+| Fixed size (generally)               | Dynamic size                             |
+| Insertion/deletion is costly         | Insertion/deletion is easier             |
+
+#Difference Between DFS and BFS:
+| DFS                  | BFS                     |
+| -------------------- | ----------------------- |
+| Depth First Search   | Breadth First Search    |
+| Explores depth first | Explores level by level |
+| Uses Stack/Recursion | Uses Queue              |
+| Less memory          | More memory             |
 
 
+#What is Hashing?
+Hashing is a technique used to store and retrieve data efficiently by 
+converting a key into an index using a hash function.
+        Example:
+        Key = 18
+        Hash Function = key % 6
+        18 % 6 = 0
+
+#A good interview answer if asked "How do you find time complexity?" is:
+"I count how many times the main operation executes. Single loops usually give O(n), 
+nested loops multiply to O(n²) or O(n³), and when the input is repeatedly halved, the complexity is O(log n).
+ If a loop contains a halving operation, it becomes O(n log n)."
+ 
+
+#greedy algorithm:
+it builds a solution step by step ,making the best possibly choice  
+at the current moment without reconsider previous decisions 
+
+#simple defination:
+a greedy algorithm always chooses the locally optimal(best immediate) option, hoping it 
+will lead to a globally optimal solution
 
 
+# Dynamic Programming Fundamentals:
+it solves a problem by breaking it into smaller subproblems,
+storing their solutions, and reusing them to avoid repeated computations."
+
+Key Properties:
+Overlapping Subproblems: Subproblems are evaluated many times. DP avoids recomputing them by storing their results.
+Optimal Substructure: The optimal solution to a problem can be constructed from optimal solutions of its subproblems.
+Approaches:
+DP problems are typically solved using one of two approaches:
+
+Top-Down (Memoization): Recursive formulation + caching.
+Bottom-Up (Tabulation): Iterative formulation using tables.
+
+#palindrome:
+A palindrome is a string or number
+ that remains the same
+  when read from left to right 
+  and right to left.
+
+
+#what is oop:
+"OOP (Object-Oriented Programming) is a programming paradigm 
+that uses classes and objects to create reusable, secure, and maintainable code."
+
+
+#4. What are the four pillars of OOP?
+Encapsulation
+Abstraction
+Inheritance
+Polymorphism
+
+*Encapsulation → Protect data
+Abstraction → Hide details
+Inheritance → Reuse code
+Polymorphism → One method, many forms
+
+| Class                          | Object                            |
+| ------------------------------ | --------------------------------- |
+| Blueprint                      | Instance of a class               |
+| Defines properties and methods | Uses those properties and methods |
+| Created once                   | Multiple objects can be created   |
+
+
+#what is fabinoic series:
+"The Fibonacci series is a sequence in which each number is the sum of the previous two numbers,
+ starting with 0 and 1."
+
+
+| List                                              | Tuple                                  |
+| ------------------------------------------------- | -------------------------------------- |
+| Mutable (can be modified)                         | Immutable (cannot be modified)         |
+| Uses `[]`                                         | Uses `()`                              |
+| Slower                                            | Faster                                 |
+| Methods like `append()`, `remove()` are available | Limited methods (`count()`, `index()`) |
+
+
+#merge sort:
+Merge Sort is a divide-and-conquer algorithm that divides an array into smaller parts
+, sorts them, and then merges them into a sorted array.
+
+
+# quick sor:
+Quick Sort is a divide-and-conquer algorithm that selects a pivot element and partitions
+ the array so that smaller elements are on the left and larger elements are on the right

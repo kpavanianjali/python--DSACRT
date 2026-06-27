@@ -6,7 +6,7 @@
 #BFS:BREADTH FOR SEARCH
 #LEFT VIEW TRAVERSAL
 #TREENODE: 
-class TreeNode:
+"""class TreeNode:
     def __init__(self,data):
         self.data=data
         self.left=None
@@ -14,6 +14,11 @@ class TreeNode:
 class Tree:
     def __init__(self):
         self.root=None
-    def insert(self,value):     
+    def insert(self,value):  """ 
+
+
+
+
+
 
         
